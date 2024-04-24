@@ -45,3 +45,28 @@ const myFunction=function(){
     console.log("Hello Dosto");
 }
 myFunction();
+
+
+/*-----------------Memory types and storage----------------*/
+// Stack(Primitive) , Heap (Non-Primitives)
+
+let myYouTubename = "EatAndBeat"
+
+let anotherName=myYouTubename  //(Pass by copy)
+anotherName="Let'sBreak"
+
+console.log(anotherName);
+console.log(myYouTubename);
+
+let userOne={
+    name:"nilisha",
+    email:"nilisha@gmail.com",
+    upi:"xyz@ybl"
+}
+
+let userTwo=userOne //Pass by reference
+
+userTwo.email="abcd@mail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
