@@ -26,7 +26,7 @@ console.log(anotherString); //ili
 
 const newStringOne="    jaipur    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim()); //trim remove starting and ending spaces
 
 const url="https://hitesh.com/hitesh%30choudary"
 console.log(url.replace('%30','_'));

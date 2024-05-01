@@ -19,7 +19,7 @@ const isLoggedIn = false
 const outsideTemp=null
 let userEmail=undefined
 
-const id=Symbol('132')
+const id=Symbol('123')
 const anotherId=Symbol('123')
 
 console.log(id===anotherId);  //false
