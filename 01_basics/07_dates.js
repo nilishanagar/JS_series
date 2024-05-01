@@ -33,7 +33,7 @@ console.log(newDate);
 console.log(newDate.getMonth()); //start from 0
 
 
-// <----------important : toLocaleString()-------------->
+// <----------important : toLocaleString() :can Takes parameter & object as input -------------->
 
 // In JavaScript, toLocaleString() is a method that is available on objects such as numbers, dates, and arrays. It's used to convert the object to a string using the locale-specific formatting options.
 
