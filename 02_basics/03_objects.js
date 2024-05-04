@@ -68,7 +68,34 @@ console.log(tinderUSer.hasOwnProperty("name")); //true
 console.log(tinderUSer.hasOwnProperty("isLoggedI")) //false
 
 
+// <---------------Destructuring of Objects----------------->
+// extract values from arrays or properties from objects and assign them to variables
 
+
+const course={
+    courseName:"JS in hindi",
+    price:222
+}
+
+const {price}=course //extract price from course
+console.log(price);
+
+const {price:coursePrice}=course //price is given coursePrice name (same as 80)
+console.log(coursePrice);
+
+//in react : destructuing  same 87 & 91
+// const navbar=(props.company)=>{
+//     console.log(props.company)
+// };
+
+// const navbar=({company})=>{console.log(company)}
+// navbar(company="hitesh")
+
+
+
+// <------------Api response : Json format----------->
+// famous api : https://randomuser.me/
+//json formatter : https://jsonformatter.org/ 
 
 
 
