@@ -4,10 +4,11 @@
 // <-----------------objects--------------->
 //2 ways to declare  objects : a) using constructor :Object.create() b) using object literals
 
-//object literals
+
 const mySym=Symbol("key1");
 
-const JsUser={ //bydefalut it key is consider as string
+//object literals
+const JsUser={ //bydefalut  keys are consider as string
     name:"nilisha",
     age:18,
     [mySym]:"chaabi",
@@ -25,9 +26,9 @@ console.log(JsUser["full name"]);
 
 // interview :Q1) [ek symbol ko input lo , usko object ki keys me add kro & print kro ]
 // console.log(JsUser.mySym);  
-// console.log(typeof JsUser.mySym); //if not written as[mySym] in dec,give string
+// console.log(typeof JsUser.mySym); //if not written as[mySym] in declaration ,give string
 
-console.log(JsUser[mySym]);//no need to "" as it is symbol & written as [mySym] in dec
+console.log(JsUser[mySym]);//no need to "" as it is symbol & written as [mySym] in declaration
 console.log(typeof JsUser.mySym);//undefined
 
 
@@ -49,7 +50,7 @@ console.log(JsUser.greeting1());//undefined
 
 JsUser.greeting2=function()
 {
-    console.log(`Hello JsUser, ${this.name}`);  //"" to `` is called string interpolation line 44 & 52
+    console.log(`Hello JsUser, ${this.name}`);  //"" to `` is called string interpolation line 45 & 53
 }
 console.log(JsUser.greeting2);//[Function (anonymous)]
 console.log(JsUser.greeting2())//undefined
