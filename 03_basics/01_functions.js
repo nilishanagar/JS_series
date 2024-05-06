@@ -16,7 +16,7 @@ function addTwoNumbers(num1,num2) //num1 & num2 are parameters
     // return num1+num2;
 }
 
-addTwoNumbers();
+addTwoNumbers(); //NaN
 addTwoNumbers(2,3) //2 & 3 are arguments
 addTwoNumbers(2,"5");
 addTwoNumbers(2,"a");
