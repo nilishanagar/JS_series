@@ -94,3 +94,5 @@ for(const key in map){
 
 // <-----------------Use-------------------->
 // for arrays : for-of loop & for objects : for-in loop 
+
+//read : https://chatgpt.com/c/fef218d3-77f7-4da6-96c1-d77f33330f3f

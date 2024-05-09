@@ -30,3 +30,5 @@ const shoppingCart=[
 
 const pricepay=shoppingCart.reduce((acc,val)=>acc+val.price,0)
 console.log(pricepay);
+
+// Read : https://chatgpt.com/c/e7394dec-0397-497a-86d3-f0c5a06be633
