@@ -63,6 +63,7 @@ promiseFour
     console.log(username);
 })
 .catch(function(error){
+    console.log("This is in console.")
     console.log(error);
 })
 .finally(function(){  //always run
@@ -102,7 +103,8 @@ async function getAllUsers(){
     try{const response=await fetch('https://jsonplaceholder.typicode.com/users')
 
     const data=await response.json() //it response takes time to convert so use await
-    console.log(data);}
+    console.log(data);
+}
     catch(error){
       console.log('ERROR :Cannot fetch data');
     }
